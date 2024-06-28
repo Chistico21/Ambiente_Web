@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+    </head>
+    <div>
+        <a href="/"> Back Home</a>
+        <h1>Contact Us</h1>
+        <form action="/contactus" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" required rows="5"></textarea>
+      
+          <button type="submit">Send</button>
+          <button type="reset">Clear</button>
+        </form>
+      </div>
+</html>
